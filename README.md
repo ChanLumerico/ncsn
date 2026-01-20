@@ -6,12 +6,13 @@
 
 | 초기 분포 | `seed=42` | `seed=10` |
 |------|------|------|
-| $\mathcal{U}(-1,1)\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/4d282e36-4929-42f5-a815-49444a881729/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/9507d87e-66fe-4761-bcca-3556491c4f9e/image.gif" width="70%"/></p> |
-| $\mathcal{N}(\mathbf{0},\mathbf{I})\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/6b63165b-74f4-44be-a3eb-9e4dfec39b1c/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/80746db6-8392-48fe-bbf9-74d33aaca482/image.gif" width="70%"/></p> |
+| $\mathcal{U}(-1,1)\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/c6a43ef5-3986-4483-acf5-59e54c13fdd2/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/e8b3a26b-a1c1-47d9-bc2f-17ccf88c20cb/image.gif" width="70%"/></p> |
+| $\mathcal{N}(\mathbf{0},\mathbf{I})\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/0d8a3a83-474c-49f1-b06f-31397425ab49/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/e6c4c7ef-9545-4802-98cf-fbd955bb52b8/image.gif" width="70%"/></p> |
 
 본 프로젝트의 목적은 원 논문의 방법론을 실험적으로 재현하고, 이론–구현 간 대응 관계를 명확히 드러내는 코드베이스를 구축하는 데 있다.
 
 ---
+
 
 ## 1️⃣ 이론적 배경
 
@@ -583,8 +584,8 @@ Running loss 곡선을 처음부터 끝까지 살펴보면 전체적으로 학�
 
 | 초기 분포 | `seed=42` | `seed=10` |
 |------|------|------|
-| $\mathcal{U}(-1,1)\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/4d282e36-4929-42f5-a815-49444a881729/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/9507d87e-66fe-4761-bcca-3556491c4f9e/image.gif" width="70%"/></p> |
-| $\mathcal{N}(\mathbf{0},\mathbf{I})\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/6b63165b-74f4-44be-a3eb-9e4dfec39b1c/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/80746db6-8392-48fe-bbf9-74d33aaca482/image.gif" width="70%"/></p> |
+| $\mathcal{U}(-1,1)\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/c6a43ef5-3986-4483-acf5-59e54c13fdd2/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/e8b3a26b-a1c1-47d9-bc2f-17ccf88c20cb/image.gif" width="70%"/></p> |
+| $\mathcal{N}(\mathbf{0},\mathbf{I})\in\mathbb{R}^{N\times H\times W}$ | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/0d8a3a83-474c-49f1-b06f-31397425ab49/image.gif" width="70%"/></p> | <p align="center"><img src="https://velog.velcdn.com/images/lumerico284/post/e6c4c7ef-9545-4802-98cf-fbd955bb52b8/image.gif" width="70%"/></p> |
 
 ---
 

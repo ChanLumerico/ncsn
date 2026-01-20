@@ -1,0 +1,47 @@
+device: mps
+seed: 42
+data:
+  dataset: celeba
+  root: data/celeba_32x32
+  image_size: 32
+  random_horizontal_flip: true
+  num_workers: 4
+  dataset_cls: datasets.CelebAImageFolder
+  dataset_kwargs:
+    root: data/celeba_32x32
+    image_size: 32
+    random_horizontal_flip: true
+    limit: null
+model:
+  in_channels: 3
+  nf: 64
+  num_scales: 10
+  sigma_begin: 1.0
+  sigma_end: 0.01
+  dilations:
+  - 1
+  - 2
+  - 4
+  - 8
+  scale_by_sigma: true
+training:
+  out_dir: out
+  auto_resume: true
+  batch_size: 64
+  epochs: 100
+  lr: 0.0002
+  betas:
+  - 0.9
+  - 0.999
+  weight_decay: 0.0
+  grad_clip: 1.0
+  save_every: 1
+  sample_every: 1
+  plot_losses: true
+sampling:
+  n_samples: 64
+  n_steps_each: 100
+  step_lr: 2.0e-05
+  clamp: true
+  denoise: false
+  init_distribution: normal
